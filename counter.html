@@ -2,14 +2,15 @@
 
 <head>
 	<title>Plain HTML Sandbox</title>
+	<h1>My Counter</h1>
 </head>
 
 <body>
   <div id="app">
-	  Counter {{counter}}
+	  Counter: {{counter}}
 	  <button v-on:click="increment()">Increment</button>
 	  <button v-on:click="reset()">Reset</button>
-    <button v-on:click="update()">Update</button>
+	  <button v-on:click="update()">Update</button>
 
   </div>
 
